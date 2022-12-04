@@ -14,10 +14,10 @@
     @endif
     <table class="table table-bordered">
         <tr>
-            <th>ID console</th>
-            <th>Nama console</th>
-            <th>ID storage</th>
-            <th>ID toko</th>
+            <th>ID Console</th>
+            <th>Nama Console</th>
+            <th>ID Storage</th>
+            <th>ID Toko</th>
             <th width="280px">Action</th>
         </tr>
         @foreach ($consoles as $console)

@@ -3,14 +3,14 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>consoles</h2>
+                <h2>Consoles</h2>
             </div>
             <div class="pull-right">
                 @can('console-create')
-                <a class="btn btn-success" href="{{ route('consoles.create') }}"> Create New console</a>
+                <a class="btn btn-success" href="{{ route('consoles.create') }}"> Create New Console</a>
                 @endcan
                 @can('console-delete')
-                <a class="btn btn-info" href="consoles/trash"> Deleted console</a>
+                <a class="btn btn-info" href="consoles/trash"> Deleted Console</a>
                 @endcan
             </div>
             <div class="my-3 col-12 col-sm-8 col-md-5">
@@ -30,10 +30,10 @@
     @endif
     <table class="table table-bordered">
         <tr>
-            <th>ID console</th>
-            <th>Nama console</th>
-            <th>ID storage</th>
-            <th>ID toko</th>
+            <th>ID Console</th>
+            <th>Nama Console</th>
+            <th>ID Storage</th>
+            <th>ID Toko</th>
             <th width="280px">Action</th>
         </tr>
         @foreach ($consoles as $console)

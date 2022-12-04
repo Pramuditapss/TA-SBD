@@ -3,14 +3,14 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>toko</h2>
+                <h2>Toko</h2>
             </div>
             <div class="pull-right">
                 @can('toko-create')
-                <a class="btn btn-success" href="{{ route('tokos.create') }}"> Create New toko</a>
+                <a class="btn btn-success" href="{{ route('tokos.create') }}"> Create New Toko</a>
                 @endcan
                 @can('toko-delete')
-                <a class="btn btn-info" href="tokos/trash"> Deleted toko</a>
+                <a class="btn btn-info" href="tokos/trash"> Deleted Toko</a>
                 @endcan
             </div>
             <div class="my-3 col-12 col-sm-8 col-md-5">

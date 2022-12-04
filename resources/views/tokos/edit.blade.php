@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Edit toko</h2>
+                <h2>Edit Toko</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('tokos.index') }}"> Back</a>
@@ -26,13 +26,13 @@
          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>ID toko:</strong>
+                    <strong>ID Toko:</strong>
                     <input type="number" name="id_toko" value="{{ $toko->id_toko }}" class="form-control" placeholder="ID toko">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Nama toko:</strong>
+                    <strong>Nama Toko:</strong>
                     <input type="text" name="nama_toko" value="{{ $toko->nama_toko }}" class="form-control" placeholder="Name">
                 </div>
             </div>

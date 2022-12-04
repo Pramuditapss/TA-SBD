@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2> Show storage</h2>
+                <h2> Show Storage</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('storages.index') }}"> Back</a>
@@ -13,13 +13,13 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>ID storage:</strong>
+                <strong>ID Storage:</strong>
                 {{ $storage->id_storage }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Nama storage:</strong>
+                <strong>Nama Storage:</strong>
                 {{ $storage->nama_storage }}
             </div>
         </div>

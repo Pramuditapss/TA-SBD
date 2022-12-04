@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Deleted storages</h2>
+                <h2>Deleted Storages</h2>
             </div>
         </div>
     </div>
@@ -14,8 +14,8 @@
     @endif
     <table class="table table-bordered">
         <tr>
-            <th>ID storage</th>
-            <th>Nama storage</th>
+            <th>ID Storage</th>
+            <th>Nama Storage</th>
             <th>Detail</th>
     
             <th width="280px">Action</th>

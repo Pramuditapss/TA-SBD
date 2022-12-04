@@ -3,14 +3,14 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>storage</h2>
+                <h2>Storage</h2>
             </div>
             <div class="pull-right">
                 @can('storage-create')
-                <a class="btn btn-success" href="{{ route('storages.create') }}"> Create New storage</a>
+                <a class="btn btn-success" href="{{ route('storages.create') }}"> Create New Storage</a>
                 @endcan
                 @can('storage-delete')
-                <a class="btn btn-info" href="storages/trash"> Deleted storage</a>
+                <a class="btn btn-info" href="storages/trash"> Deleted Storage</a>
                 @endcan
             </div>
             <div class="my-3 col-12 col-sm-8 col-md-5">
@@ -30,8 +30,8 @@
     @endif
     <table class="table table-bordered">
         <tr>
-            <th>ID storage</th>
-            <th>Nama storage</th>
+            <th>ID Storage</th>
+            <th>Nama Storage</th>
             <th>Detail</th>
         
             <th width="280px">Action</th>

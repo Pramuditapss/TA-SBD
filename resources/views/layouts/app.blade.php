@@ -6,7 +6,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'DATABASE DOTA2') }}</title>
+    <title>{{ config('app.name', 'Gaming Console Storage') }}</title>
 
     @vite(['resources/js/app.js'])
 
@@ -46,9 +46,9 @@
                         @else
                             <li><a class="nav-link" href="{{ route('users.index') }}">Manage Users</a></li>
                             <li><a class="nav-link" href="{{ route('roles.index') }}">Manage Role</a></li>
-                            <li><a class="nav-link" href="{{ route('consoles.index') }}">Manage console</a></li>
-                            <li><a class="nav-link" href="{{ route('storages.index') }}">Manage storage</a></li>
-                            <li><a class="nav-link" href="{{ route('tokos.index') }}">Manage toko</a></li>
+                            <li><a class="nav-link" href="{{ route('consoles.index') }}">Manage Console</a></li>
+                            <li><a class="nav-link" href="{{ route('storages.index') }}">Manage Storage</a></li>
+                            <li><a class="nav-link" href="{{ route('tokos.index') }}">Manage Toko</a></li>
                             <li><a class="nav-link" href="/totals">Database console</a></li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

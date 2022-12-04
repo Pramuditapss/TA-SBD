@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Edit storage</h2>
+                <h2>Edit Storage</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('storages.index') }}"> Back</a>
@@ -26,13 +26,13 @@
          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>ID storage:</strong>
+                    <strong>ID Storage:</strong>
                     <input type="number" name="id_storage" value="{{ $storage->id_storage }}" class="form-control" placeholder="ID storage">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Nama storage:</strong>
+                    <strong>Nama Storage:</strong>
                     <input type="text" name="nama_storage" value="{{ $storage->nama_storage }}" class="form-control" placeholder="Name">
                 </div>
             </div>

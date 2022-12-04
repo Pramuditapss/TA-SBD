@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Edit console</h2>
+                <h2>Edit Console</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('consoles.index') }}"> Back</a>
@@ -26,25 +26,25 @@
          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>ID console:</strong>
+                    <strong>ID Console:</strong>
                     <input type="number" name="id_console" value="{{ $console->id_console }}" class="form-control" placeholder="ID console">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Nama console:</strong>
+                    <strong>Nama Console:</strong>
                     <input type="text" name="nama_console" value="{{ $console->nama_console }}" class="form-control" placeholder="Name">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>ID storage:</strong>
+                    <strong>ID Storage:</strong>
                     <input type="number" name="id_storage" value="{{ $console->id_storage }}" class="form-control" placeholder="ID storage">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>ID toko:</strong>
+                    <strong>ID Toko:</strong>
                     <input type="number" name="id_toko" value="{{ $console->id_toko }}" class="form-control" placeholder="ID toko">
                 </div>
             </div>
